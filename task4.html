@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/task4.css">
+    <script src="scripts/task4.js" defer></script>
+    <title>Завдання 4</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Завдання 4: Підрахунок способів піднятися по сходах</h1>
+        <p>Введіть кількість сходинок, щоб дізнатися, скільки унікальних комбінацій існує для підйому до вершини.</p>
+        
+        <div class="input-section">
+            <label for="inputNumber">Введіть кількість сходинок:</label>
+            <input type="number" id="inputNumber" placeholder="2" min="1" max="45">
+            <button onclick="displayResult()">Обчислити</button>
+        </div>
+        
+        <div class="result-section">
+            <p id="resultRecursive">Головна рекурсія: </p>
+            <p id="resultTailRecursive">Хвостова рекурсія: </p>
+        </div>
+        <div class="links">
+            <a href="https://github.com/your-repository-url" target="_blank" class="repo-link">Відкрити репозиторій на GitHub</a>
+            <a href="index.html" class="back-link">Назад до списку завдань</a>
+        </div>
+    </div>
+</body>
+</html>

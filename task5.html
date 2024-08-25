@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/task5.css">
+    <script src="scripts/task5.js" defer></script>
+    <title>Завдання 5:</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Завдання 5: Піднесення в ступінь</h1>
+        <p>Введіть число і ступінь, щоб дізнатися результат піднесення в ступінь.</p>
+        
+        <div class="input-section">
+            <label for="inputX">Введіть число x:</label>
+            <input type="number" id="inputX" step="any" placeholder="2.00000">
+            <label for="inputN">Введіть ступінь n:</label>
+            <input type="number" id="inputN" placeholder="10">
+            <button onclick="displayResult()">Обчислити</button>
+        </div>
+        
+        <div class="result-section">
+            <p id="resultRecursive">Головна рекурсія: </p>
+            <p id="resultTailRecursive">Хвостова рекурсія: </p>
+        </div>
+        
+        <a href="index.html" class="back-link">Назад до списку завдань</a>
+    </div>
+</body>
+</html>
